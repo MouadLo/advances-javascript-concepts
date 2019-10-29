@@ -5,8 +5,6 @@ function importantPerson() {
     console.log(this.name + '!!!');
 }
 
-
-
 var name = 'Sunny';
 
 const obj1 = {
@@ -19,11 +17,9 @@ const obj2 = {
     importantPerson: importantPerson
 }
 
-
 importantPerson();
 obj1.importantPerson();
 obj2.importantPerson();
-
 
 // const obj = {
 //     name: 'Billy',
