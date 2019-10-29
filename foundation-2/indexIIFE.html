@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Helloooo</h1>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script>
+            var z = 1;
+            var script2 = (function ($) {
+                $('h1').click(function() {
+                    $('h1').hide();
+                })
+                return { 
+                    $: 'hi' 
+                }
+            })(jQuery);
+        </script>
+    <script>
+        var z = 1;
+        var script1 = (function () {
+            function a() {
+                return 5;
+            }
+            return { 
+                a: a
+            }
+        })
+    </script>
+    <script> var zzz = 'zzz';</script>
+    <script> 
+        var z = 1000;
+        function a() {
+            return 'hahaha';
+        }
+    </script>
+</body>
+</html>
